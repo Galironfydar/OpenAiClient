@@ -10,8 +10,6 @@ use PHPUnit\Framework\TestCase;
 
 class ChatApiTest extends TestCase
 {
-
-    use LoadsYamlConfiguration;
     private $apiKey = 'your_api_key';
     private $chatApi;
 
