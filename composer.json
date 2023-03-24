@@ -1,5 +1,5 @@
 {
-    "name": "galironfydar/open-aiapi",
+    "name": "galironfydar/open-ai-client",
     "type": "library",
     "version": "1.0.2",
     "require": {
@@ -13,7 +13,7 @@
     "scripts": {
         "test": "vendor/bin/phpunit tests/"
     },
-    "license": "private",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Galironfydar\\": "src/"
