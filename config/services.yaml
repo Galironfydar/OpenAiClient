@@ -1,5 +1,0 @@
-services:
-  openai_api:
-    class: Galironfydar\Api\ChatApi
-    arguments:
-      $apiKey: '%env(API_KEY)%'
