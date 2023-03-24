@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Galironfydar\\Tests\\OpenAiApiTest::testGenerateText":4,"Galironfydar\\Tests\\ChatApiTest::testCreateChatCompletion":4},"times":{"Galironfydar\\Tests\\OpenAiApiTest::testGenerateText":0.004,"Galironfydar\\Tests\\ChatApiTest::testCreateChatCompletion":60.311}}

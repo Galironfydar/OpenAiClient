@@ -1,0 +1,33 @@
+{
+    "name": "galironfydar/open-aiapi",
+    "type": "library",
+    "version": "1.0.2",
+    "require": {
+        "symfony/config": "^6.2",
+        "symfony/yaml": "^6.2",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/"
+    },
+    "license": "private",
+    "autoload": {
+        "psr-4": {
+            "Galironfydar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Galironfydar\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christopher McLaughlin",
+            "email": "galironfydar@gmail.com"
+        }
+    ]
+}
